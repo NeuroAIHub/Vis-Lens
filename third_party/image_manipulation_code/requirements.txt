@@ -1,0 +1,34 @@
+# ---------- numerics ----------
+numpy==2.2.6
+scipy>=1.11,<2.0
+
+# ---------- notebooks / viz ----------
+jupyter
+ipykernel
+matplotlib>=3.8,<3.11
+tqdm
+pandas>=2.2,<2.3
+
+# ---------- I/O ----------
+h5py
+nibabel
+
+# ---------- core ML ----------
+torch==2.2.2
+torchvision==0.17.2          # keep minor in sync with torch
+diffusers==0.30.2
+transformers==4.44.2
+einops
+scikit-learn
+scikit-image
+timm==0.6.7
+
+# ---------- misc ----------
+pycocotools
+requests
+pytorch-lightning>=2.0,<2.6
+wandb
+visualpriors           # your own package? leave unpinned
+
+# ---------- optional: pin accelerate that diffusers pulls ----------
+accelerate==0.29.3      # latest tested on PyTorch 2.2 & Python 3.10

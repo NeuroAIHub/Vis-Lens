@@ -3,3 +3,11 @@ checkpoints/
 third_party/image_manipulation_code/outputs/
 .DS_Store
 .vscode/
+!checkpoints/LW_CLIPtoCLIP_VAE_NSD_31pd_Constrain_zdim_2048_KLD_01_lamb_01.pt
+!checkpoints/ANN_LW_CLIPtoCLIP_VAE_layer1_0_conv1_unit_27_Constrain_zdim_2048_KLD_1_lamb_1.pt
+!checkpoints/checkpoint-125100.pth.tar
+!checkpoints/resnet50_imagenet_bs2k_epochs600_linear.pth.tar
+!checkpoints/exp_cvae_base_bottleneck_multi_constrain_three_layers_conv_1_32_features_lamb_0_1.pt
+!checkpoints/dino_encoder-lh-explored-8-ROI-ex-epoch=04-val_loss=0.11.ckpt
+!checkpoints/cvae_base_bottleneck_default.pt
+!checkpoints/cifar_10_three_layers_color.pt

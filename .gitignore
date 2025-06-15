@@ -1,0 +1,5 @@
+datasets/
+checkpoints/
+third_party/image_manipulation_code/outputs/
+.DS_Store
+.vscode/

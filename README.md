@@ -1,4 +1,5 @@
 ### Environment Setup
+Python Version: 3.10.0
 ```
 pip install -r requirements.txt
 ```
